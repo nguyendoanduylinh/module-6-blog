@@ -1,0 +1,29 @@
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "duylinh",
+  "password": "123"
+}
+
+###
+POST  http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "duylinh",
+  "email": "duylinh@gmail.com",
+  "password": "123"
+}
+
+###
+POST  http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+  "title": "science",
+  "description": "boring",
+  "url": "science.com",
+  "status": "",
+  "user": "63312ffe33835908fea106bc"
+}
